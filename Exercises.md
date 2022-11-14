@@ -296,7 +296,8 @@ Make your solutions ready.
 
 
 ## Assignment: Practical steps
-Description of the assignment and deliveries will be published by the teacher. Here we try to provide some steps that practically can lead students to implement a solution for the assignment. **Note**: These steps will be updated regularly during the course period.
+Description of the assignment and deliveries will be published by the teacher.
+Here we try to provide some steps that practically can lead students to implement a solution for the assignment. **Note**: These steps will be updated regularly during the course period.
 
 During the course after Week ...
 1. [in progress]
