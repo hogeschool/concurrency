@@ -1,0 +1,6 @@
+
+MergeSort/.DS_Store
+*.dll
+*.pdb
+MergeSort/bin/
+MergeSort/obj/
