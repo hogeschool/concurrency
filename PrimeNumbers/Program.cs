@@ -3,7 +3,7 @@ using System.Diagnostics;
 using System.Threading;
 using Exercise;
 //using Concurrent;
-using Solution;
+//using Solution;
 
 /// <summary>
 /// This example implements a concurrent version of finding and printing prime-numbers between two given numbers.
