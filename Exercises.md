@@ -240,8 +240,8 @@ The main objectives are to practice synchronisations of threads using Semaphores
    5. Discuss what would be a solution for the deadlock. 
 3. **[@home]** In order to synchronize threads, different synchronization constructs are implemented. So far, you have practiced to provide mutual exclusion using **lock(obj){ ... }** statement. However, C# provides a synchronization primitive named **Mutex**. 
    1. Read the specification of class **Mutex** and check how a critical section can be protected with an instance of **Mutex**:
-      Reference: read [Class Mutex](https://docs.microsoft.com/en-us/dotnet/api/system.threading.mutex?view=net-5.0) 
-   2. As we have discussed in the lesson, a binary semaphore (a semaphore initialized with one) can also be employed to implement mutual exclusion. Again, C# has already implemented a synchronization primitive named Semaphore (see [here](https://docs.microsoft.com/en-us/dotnet/api/system.threading.semaphore?view=netcore-3.1)). 
+      Reference: read [Class Mutex](https://docs.microsoft.com/en-us/dotnet/api/system.threading.mutex?view=net-6.0) 
+   2. As we have discussed in the lesson, a binary semaphore (a semaphore initialized with one) can also be employed to implement mutual exclusion. Again, C# has already implemented a synchronization primitive named Semaphore (see [here](https://docs.microsoft.com/en-us/dotnet/api/system.threading.semaphore?view=net-6.0)). 
       1. What are the main differences between class **Mutex** and class **Semaphore**? Can one replace the other?
       2. Is it possible to implement **Week 5: Exercise 1** using a **Mutex**? Justify your answer.
 
