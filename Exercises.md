@@ -53,7 +53,7 @@ Reference: [Process handling in C#](https://www.dotnetperls.com/process)
 - How can we modify properties of a process?
 - How can we get a list of currently running processes?
 2. Use the online reference below to find more information about **Process** component.
-Reference: [System calls to make processes](https://docs.microsoft.com/en-us/dotnet/api/system.diagnostics.process?view=netcore-3.1) 
+Reference: [System calls to make processes](https://learn.microsoft.com/en-us/dotnet/api/system.diagnostics.process?view=net-6.0)
 
 ## Exercises:
 
