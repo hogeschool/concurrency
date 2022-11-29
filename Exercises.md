@@ -60,7 +60,8 @@ Reference: [System calls to make processes](https://learn.microsoft.com/en-us/do
 1. [~ 20 min ] **Processes**: The program will give a list of currently running processes. Names and Ids are printed. 
 	1. Compare Ids and Names with your machine activity (task) manager program. Choose a process id from your computer that its termination is safe: like whatsapp, editors, browser. Check if the program terminates the given process completely.
 	2. **[@home]** Add a method to the program that gets the name of a process and prints the related id.
-2. [~ 20 min ] **[Solution will be Available]** **ProcessCreation**: Implement a program, that executes a command, like **ls**/**dir**. Modify your program such that executes the **Processes** (previous exercise compiled version of the dll/exe, and check the references).
+2. [~ 20 min ] **[Solution will be Available]** **ProcessCreation**: Implement a program, that executes a command, like **ls**/**dir**.
+After that, modify your program such that executes the **Processes** (try to run the previous exercise-compiled-version of the dll/exe, and check the references, it should be in the bin directory of **Processes** ).
 
 3. [~ 30 min ] **[Solution will be Available]** **IPCNamedClient, IPCNamedServer**: Two projects are implemented to present how two programs can communicate using named pipes.
 **Note**: Client and server naming is not following strict definition of client-server roles, it is just oriented to have a peer to peer communication.
