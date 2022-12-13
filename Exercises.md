@@ -194,14 +194,7 @@ The main objectives are to protect shared resources and to practice basic concep
       6. run concurrentMultiProducerMultiConsumer to check if that is also working!
    4. *(Optional)*: As you can recognise, usually, the shared buffer is left with some unused data items. Fix the program in a way that the consumer can use all the data available.
    
-      Hint: First, instead of a fixed number of iterations, trigger producer and consumer in every *t* milliseconds. *t* can be a random number within an interval. Then, the consumer should consume all the items whenever it has a chance to execute.
-4. [~ 30 min]**[@home]** **ProducerConsumer** :
-   
-   1. Implement a method that simulates multiple producers, one consumer.
-   
-   2. Implement a method that simulates multiple producers and multiple consumers.
-   
-      
+      Hint: First, instead of a fixed number of iterations, trigger producer and consumer in every *t* milliseconds. *t* can be a random number within an interval. Then, the consumer should consume all the items whenever it has a chance to execute.   
    
 
 <!-- DataProcessor** (Optional): In a project, there are several sensors generating and sending data to a server. The server is responsible to collect all the data and visualize them. **Implementation**: Implement a program that provides the core for the above application. Data can be simply temperature of various locations that is measured every 10 milliseconds and being sent to the server together with the location data values. *Hint*: The purpose of this exercise is not to implement a client server program. Focus on the model of data gathering and synchronisation with the visualizer. Visualization can simply be printing the data values in the output console. -->
