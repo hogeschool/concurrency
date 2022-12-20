@@ -227,7 +227,7 @@ The main objectives are to practice synchronisations of threads using Semaphores
    	Do producer and consumer threads work correctly? Justify your answer. 
    4. From #todo 4: fix the problem of producer and consumer.
    5. From #todo 5: check the code implemented in ProducerConsumerSimulator::concurrentMultiProducerMultiConsumer(). Run the method and analyze the output.
-   6. Correct the code so the producers and consumers are running correctly (use mutexes wait/release)
+   6. Correct the code so the producers and consumers are running correctly (use the provided semaphores wait/release)
 2. [~ 40 min] **DiningPhilosophers**: This is a simple implementation of dining philosopher problem. *Philosopher* implements two versions of eating: every philosopher needs only one (right) fork to eat the food; and, each philosopher needs two (left and right) forks. 
    1. Run the code implemented for both kind of eating. Check how resources are locked. Check how a parameterized method is passed to the threads.
    2. Discuss the problem of two forks eating.
