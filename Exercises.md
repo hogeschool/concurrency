@@ -233,7 +233,8 @@ The main objectives are to practice synchronisations of threads using Semaphores
    2. Discuss the problem of two forks eating.
    3. Follow the todo and fix the problem of two forks eating. 
    4. Run the code with your solution. Does a deadlock occur? 
-   5. Discuss what would be a solution for the deadlock. 
+   5. Discuss how would you place the protection to avoid a deadlock and how would you place the procetion to create a deadlock.
+   6. Implement the deadlock condition and test it. 
 3. **[@home]** In order to synchronize threads, different synchronization constructs are implemented. So far, you have practiced to provide mutual exclusion using **lock(obj){ ... }** statement. However, C# provides a synchronization primitive named **Mutex**. 
    1. Read the specification of class **Mutex** and check how a critical section can be protected with an instance of **Mutex**:
       Reference: read [Class Mutex](https://docs.microsoft.com/en-us/dotnet/api/system.threading.mutex?view=net-6.0) 
