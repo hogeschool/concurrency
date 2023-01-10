@@ -60,7 +60,8 @@ Reference: [System calls to make processes](https://learn.microsoft.com/en-us/do
 1. [~ 20 min ] **Processes**: The program will give a list of currently running processes. Names and Ids are printed. 
 	1. Compare Ids and Names with your machine activity (task) manager program. Choose a process id from your computer that its termination is safe: like whatsapp, editors, browser. Check if the program terminates the given process completely.
 	2. **[@home]** Add a method to the program that gets the name of a process and prints the related id.
-2. [~ 20 min ] **[Solution will be Available]** **ProcessCreation**: Implement a program, that executes a command, like **ls**/**dir**. Modify your program such that executes the **Processes** (previous exercise compiled version of the dll/exe, and check the references).
+2. [~ 20 min ] **[Solution will be Available]** **ProcessCreation**: Implement a program, that executes a command, like **ls**/**dir**.
+After that, modify your program such that executes the **Processes** (try to run the previous exercise-compiled-version of the dll/exe, and check the references, it should be in the bin directory of **Processes** ).
 
 3. [~ 30 min ] **[Solution will be Available]** **IPCNamedClient, IPCNamedServer**: Two projects are implemented to present how two programs can communicate using named pipes.
 **Note**: Client and server naming is not following strict definition of client-server roles, it is just oriented to have a peer to peer communication.
@@ -190,16 +191,10 @@ The main objectives are to protect shared resources and to practice basic concep
       3. Do you recognise a shared memory? Justify your answer.
       4. Is the shared memory protected?
       5. Make the program **thread safe** (protect your memory!).
+      6. run concurrentMultiProducerMultiConsumer to check if that is also working!
    4. *(Optional)*: As you can recognise, usually, the shared buffer is left with some unused data items. Fix the program in a way that the consumer can use all the data available.
    
-      Hint: First, instead of a fixed number of iterations, trigger producer and consumer in every *t* milliseconds. *t* can be a random number within an interval. Then, the consumer should consume all the items whenever it has a chance to execute.
-4. [~ 30 min]**[@home]** **ProducerConsumer** :
-   
-   1. Implement a method that simulates multiple producers, one consumer.
-   
-   2. Implement a method that simulates multiple producers and multiple consumers.
-   
-      
+      Hint: First, instead of a fixed number of iterations, trigger producer and consumer in every *t* milliseconds. *t* can be a random number within an interval. Then, the consumer should consume all the items whenever it has a chance to execute.   
    
 
 <!-- DataProcessor** (Optional): In a project, there are several sensors generating and sending data to a server. The server is responsible to collect all the data and visualize them. **Implementation**: Implement a program that provides the core for the above application. Data can be simply temperature of various locations that is measured every 10 milliseconds and being sent to the server together with the location data values. *Hint*: The purpose of this exercise is not to implement a client server program. Focus on the model of data gathering and synchronisation with the visualizer. Visualization can simply be printing the data values in the output console. -->
@@ -232,12 +227,14 @@ The main objectives are to practice synchronisations of threads using Semaphores
    	Do producer and consumer threads work correctly? Justify your answer. 
    4. From #todo 4: fix the problem of producer and consumer.
    5. From #todo 5: check the code implemented in ProducerConsumerSimulator::concurrentMultiProducerMultiConsumer(). Run the method and analyze the output.
+   6. Correct the code so the producers and consumers are running correctly (use the provided semaphores wait/release)
 2. [~ 40 min] **DiningPhilosophers**: This is a simple implementation of dining philosopher problem. *Philosopher* implements two versions of eating: every philosopher needs only one (right) fork to eat the food; and, each philosopher needs two (left and right) forks. 
    1. Run the code implemented for both kind of eating. Check how resources are locked. Check how a parameterized method is passed to the threads.
    2. Discuss the problem of two forks eating.
    3. Follow the todo and fix the problem of two forks eating. 
    4. Run the code with your solution. Does a deadlock occur? 
-   5. Discuss what would be a solution for the deadlock. 
+   5. Discuss how would you place the protection to avoid a deadlock and how would you place the procetion to create a deadlock.
+   6. Implement the deadlock condition and test it. 
 3. **[@home]** In order to synchronize threads, different synchronization constructs are implemented. So far, you have practiced to provide mutual exclusion using **lock(obj){ ... }** statement. However, C# provides a synchronization primitive named **Mutex**. 
    1. Read the specification of class **Mutex** and check how a critical section can be protected with an instance of **Mutex**:
       Reference: read [Class Mutex](https://docs.microsoft.com/en-us/dotnet/api/system.threading.mutex?view=net-6.0) 
