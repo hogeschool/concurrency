@@ -260,7 +260,7 @@ Practising basics of asynchronous programming in C#, the following online resour
 
 ## Exercises:
 
-1. [~ 30 min] **Asynchronous**: In namespace **TaskExamples** have a look at the "*check*" comments to understand various ways of defining and using *Task*s and the use of *async methods*. From the *main* method, uncomment the coresponding statement and run the example. Compare and discuss the measured times.  
+1. [~ 30 min] **Asynchronous**: In namespace **TaskExamples** have a look at the "*check*" comments to understand various ways of defining and using *Task*s and the use of *async methods*. From the *main* method, uncomment the corresponding statement and run the example. Compare and discuss the measured times.  
 2. [~ 20 min] **PrimeNumbers**: Check the provided solution.
 3. [~ 20 min] **ProcessCreation**: Check the provided solution.
 4. [~ 20 min] **MergeSort**: Check the provided solution.
@@ -286,7 +286,7 @@ Make your solutions ready.
       Video: https://www.youtube.com/watch?v=LRiN3DJdskA
    3. Check the initialized values of *psem* and *csem* . 
       1. What is the size of the buffer? 
-      2. Are initializations of the semaphores help to exploit full capacity of the buffer?
+      2. Are initializations of the semaphores help to exploit the full capacity of the buffer?
       3. Propose your solution.
       4. *(Optional)* Modify the code in a way that implements your solution.
 
